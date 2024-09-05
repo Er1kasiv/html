@@ -1,0 +1,66 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin: 0 auto;
+  width: 50%;
+  margin-top: 30%;
+}
+.box {
+  box-sizing: border-box;
+  padding: 30px 50px 30px 50px;
+  display: flex;
+  justify-content: space-between;
+  background-image: url(https://coderthemes.com/dojek/layouts/images/cta-bg.png);
+  border-radius: 0.25rem;
+  height: 197px;
+  width: 1140px;
+  background-color: #353a40;
+}
+.inbox {
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.under {
+  color: #cccdcf;
+}
+.mail {
+  justify-content: end;
+}
+.Subscribe {
+  color: white;
+}
+p {
+  margin: 7px;
+}
+input {
+  position: relative;
+  height: 62px;
+  width: 336px;
+  border: none;
+  background-color: #4c5157;
+  border-radius: 4px;
+  margin-top: 10%;
+}
+.input button {
+  position: absolute;
+}
+button {
+  color: white;
+  background-color: #1ce1ac;
+  right: 453px;
+  margin-top: 43px;
+  padding: 15px 40px;
+  border-radius: 4px;
+  border: none;
+}
+.bot {
+  background-image: url(/images/earth.png);
+  list-style: none;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+li {
+  color: #8696a4;
+}

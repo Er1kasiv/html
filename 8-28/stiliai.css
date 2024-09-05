@@ -1,0 +1,32 @@
+table,
+th,
+td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+/* Šis selektorius prisitaiko visiškai visiems elementams */
+* {
+	background-color: rgb(205, 205, 205);
+	/* color: white; */
+}
+
+/* Turime perrašyti specifinio table (kurio selektorius .bg-blue) */
+table.bg-blue,
+table.bg-blue tr,
+table.bg-blue td,
+table.bg-blue th {
+	background-color: blue;
+}
+
+.text-white {
+	color: white;
+}
+
+/* NTH-CHILD yra pseudo-selektorius kuris pasirenka kažkelintą elementą (arba skaicius, arba odd arba even) */
+#ipatinga-lentele tr > td:nth-child(odd) {
+	background-color: bisque;
+}
+/* #ipatinga-lentele th {
+	background-color: rgb(91, 122, 122);
+} */

@@ -1,0 +1,120 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+ 
+.box {
+    border: 1px solid black;
+    height: 900px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+ 
+ 
+/*///////// SASKAITA-NUMERIS-DATA ///////// */
+ 
+.data-saskNr {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    line-height: 10px;
+    padding-top: 30px;
+}
+ 
+.data-saskNr p {
+    font-size: 11px;
+}
+ 
+ 
+ 
+/*///////// PARDAVEJAS-PIRKEJAS ///////// */
+ 
+.pardavejas-pirkejas h1, .data-saskNr p:first-child {
+    font-size: 14px;
+}
+ 
+.pardavejas-pirkejas p b{
+    font-size: 10px;
+    font-style: italic;
+}
+ 
+.pardavejas-pirkejas p:nth-child(odd) {
+    font-size: 8px;
+}
+ 
+.pardavejas-pirkejas p:nth-child(even) {
+    border-bottom: 1px solid black;
+ 
+}
+ 
+.pardavejas-pirkejas p{
+    margin: 0px;
+    width: 200px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+ 
+.pardavejas-pirkejas{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px;
+}
+ 
+ 
+ 
+/*///////// PIRKINIAI ///////// */
+ 
+.tableClass, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+}
+ 
+.pirkiniai {
+    padding: 0 80px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+ 
+.pirkiniai th{
+    /* Jeigu noriu table lentele pakeisti sulyginti, pakeisti i 5px */
+    padding: 5px;
+}
+ 
+.pirkiniai td {
+    padding: 8px;
+    font-style: italic;
+   
+}
+ 
+/*///////// PO LENTELE TEKSTAS ///////// */
+ 
+.suma {
+    display: flex;
+    justify-content: end;
+    margin: 0;
+    font-weight: normal;
+}
+ 
+.suma, .zodziai {
+    font-size: 11px;
+}
+ 
+.suma p {
+    margin-top: 0;
+    padding-right: 2px;
+}
+ 
+.suma p:first-child {
+    padding-right: 55px;
+}
+ 
+/*///////// PO LENTELE TEKSTAS  2 ///////// */
+ 
+.zodziai {
+    padding: 0 90px;
+}

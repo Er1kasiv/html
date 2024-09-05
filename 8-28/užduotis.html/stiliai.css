@@ -1,0 +1,14 @@
+table, th, td {border: 1.5px solid black;
+  border-collapse: collapse;
+  font-size: 10px;
+  
+  }
+  th {font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+  }
+  td {font-family: 'Times New Roman', Times, serif;
+  font-size: 10px;
+  font-style: italic;
+  text-align: center;
+  }
+  

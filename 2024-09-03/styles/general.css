@@ -1,0 +1,48 @@
+:root {
+	--tamsi-spalva: #343a40;
+	--akcentuojama-spalva: #1ce1ac;
+}
+
+@font-face {
+	font-family: "mano sriftas medium";
+	src: url("../assets/fonts/Cerebri.Sans.Pro/CerebriSansPro-Medium.ttf")
+		format("truetype");
+}
+@font-face {
+	font-family: "mano sriftas bold";
+	src: url("../assets/fonts/Cerebri.Sans.Pro/CerebriSansPro-Bold.ttf")
+		format("truetype");
+}
+@font-face {
+	font-family: "mano sriftas semibold";
+	src: url("../assets/fonts/Cerebri.Sans.Pro/CerebriSansPro-SemiBold.ttf")
+		format("truetype");
+}
+
+body {
+	margin: 0;
+}
+
+* {
+	font-family: "Mandali", sans-serif;
+}
+/* Pirmenybė skiriama dešiniausiam selektoriui */
+/* *, tag, .class, tag.class, tag.class.class2, #id */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "mano sriftas medium";
+	color: var(--tamsi-spalva);
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 1140px;
+}
+
+a {
+	text-decoration: none;
+}

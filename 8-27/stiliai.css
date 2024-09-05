@@ -1,0 +1,13 @@
+
+ table { border-top: 1px solid lightgray;
+      border-left: 1px solid lightgray;
+      border-right: 1px solid black;
+      border-bottom: 1px solid black;
+            
+  }
+  th {border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-weight: 1;}

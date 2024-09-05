@@ -1,0 +1,36 @@
+#document{
+    width: 700px;
+    height: 950px;
+    border: 1px solid black;
+    padding: 40px 20px;
+    
+}
+#document-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+#document section{
+    margin-bottom: 50px;
+}
+.text-center {
+    text-align: center;
+}
+#document section.pirk-pard-info{
+    display: flex;
+    justify-content: space-between;
+}
+#document section.pirk-pard-info .pard-
+
+#document section.pirk-pard-info .row .row-value {
+    font-size: 11px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+#document section.pirk-pard-info .row .row-name {
+    font-size: 8px;
+    text-align: center;
+}
+#document section.pirk-pard-info .row {
+    margin-bottom: 10px;
+}
